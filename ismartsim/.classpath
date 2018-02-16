@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="jxmapviewer2/jxmapviewer2/src/main/java"/>
+	<classpathentry kind="src" path="jxmapviewer2/jxmapviewer2/src/main/resources"/>
+	<classpathentry kind="src" path="smartcity"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/commons-math3-3.5/commons-math3-3.5.jar" sourcepath="/opt/demoiselle/tool/maven-repo/org/apache/commons/commons-math3/3.5/commons-math3-3.5-sources.jar"/>
+	<classpathentry kind="lib" path="jars/guava-18.0.jar"/>
+	<classpathentry kind="lib" path="jars/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="jars/yamlbeans-1.11.jar"/>
+	<classpathentry kind="lib" path="jxmapviewer2/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="jars/geojson-jackson-1.8.jar"/>
+	<classpathentry kind="lib" path="jars/jackson-core-2.7.3.jar"/>
+	<classpathentry kind="lib" path="jars/jackson-databind-2.2.2.jar" sourcepath="/opt/demoiselle/tool/maven-repo/com/fasterxml/jackson/core/jackson-databind/2.2.2/jackson-databind-2.2.2-sources.jar"/>
+	<classpathentry kind="lib" path="jars/jackson-annotations-2.2.1.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ifogsim_patched"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
